@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+    <div class="login_box" id="login_box" style="display: none;">
+        <div class="login_input">
+            <input type="text" class="login_ipt">
+
+        </div>
+        <div class="login_header">
+            <ul class="check_box" id="ul_box">
+                <li class="check_li check_li_now">
+                    <img src="./img/health_icon_fjzs@2x.png" alt="">
+                </li>
+                <li class="check_li">
+                    <img src="./img/health_icon_kfjg@2x.png" alt="">
+                </li>
+                <li class="check_li">
+                    <img src="./img/health_icon_sfty@2x.png" alt="">
+                </li>
+                <li class="check_li">
+                    <img src="./img/health_icon_kfzd@2x.png" alt="">
+                </li>
+                <li class="check_li">
+                    <img src="./img/health_icon_xlzx@2x.png" alt="">
+                </li>
+                <li class="check_li">
+                    <img src="./img/health_icon_yczl@2x.png" alt="">
+                </li>
+
+            </ul>
+        </div>
+        <div class="login_btn">
+
+            <button id="button_login">登录</button>
+        </div>
+
+    </div>
+
+    <div class="wechat" id="wechat">
+        <!-- 左侧人数 -->
+        <div class="left_box">
+            <!-- 用户名称 -->
+            <div class="username">
+                <div class="user_header">
+                    <img src="./img/header.png" alt="">
+                </div>
+                <div class="user_name">用户名</div>
+            </div>
+            <!-- 用户列表 -->
+            <div class="yonghuliebiao">用户列表</div>
+            <div class="users_div">
+                <ul class="users_ul">
+
+                </ul>
+            </div>
+        </div>
+        <div class="right_box">
+            <!-- 显示 -->
+            <div class="show_txt" id="show_txt">
+                <div class="show_msg">
+                    <span id="qun_msg">群名称：下央行（99人）</span>
+                </div>
+                <!-- 系统消息 -->
+                <div class="system_news">
+                    <p>系统消息</p>
+                </div>
+                <!-- 自己消息 -->
+                <div class="myselfy_mes">
+                    <div class="my_message">
+
+                        <div class="my_mes">
+                            <div class="my_sanjiao">
+
+                            </div>
+                            <span>ssaddda</span>
+                        </div>
+
+                        <div class="my_header">
+                            <img src="./img/header.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <!-- 别人 -->
+                <div class="qita_mes">
+                    <div class="other_message">
+                        <div class="my_header"> <img src="./img/header.png" alt=""></div>
+                        <div class="other_mes">
+                            <div class="other_sanjiao"></div>
+                            <span>ssaddda</span>
+                        </div>
+
+
+                    </div>
+                </div>
+
+            </div>
+            <!-- 菜单  -->
+            <div class="caidan"></div>
+            <!-- 输入 -->
+            <div class="inner_txt">
+                <textarea name="" id="go_input" cols="30" rows="10" class="go_input"></textarea>
+            </div>
+            <div class="sub_box">
+                <button class="sub_btn" id="sub_btn">发送</button>
+            </div>
+        </div>
+
+    </div>
+</body>
+<script src="/socket.io/socket.io.js"></script>
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.10.0/jquery.js"></script>
+<script src="./index.js"></script>
+
+</html>
